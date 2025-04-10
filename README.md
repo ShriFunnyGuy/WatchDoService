@@ -16,7 +16,7 @@ This system is a .NET Worker Service designed to be deployed on individual Windo
 
 - **Local Deployment:** Service is installed and runs on each server
 - **Central Configuration:** Uses shared SQL table `admin_watchdogwinservices`
-- **UI Integration:** Admins manage services using the PDI UI
+- **UI Integration: Admins manage services using the PDI UI, which is another local system. I developed only the CRUD operation screens in Vue 2.0 related to this service.
 
 ## Configuration Table
 
@@ -63,6 +63,3 @@ This system is a .NET Worker Service designed to be deployed on individual Windo
 2. Ensure `CheckIntervalSeconds` and SMTP settings are configured.
 3. Populate the `admin_watchdogwinservices` table via PDI UI.
 
----
-
-> 📧 For questions or support, contact the PDI system administrator.
