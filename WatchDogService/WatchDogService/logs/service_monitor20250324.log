@@ -1,0 +1,17 @@
+2025-03-24 10:35:20.983 +01:00 [WRN] Some services have issues. Sending alert...
+2025-03-24 10:35:21.454 +01:00 [INF] Email alert sent successfully.
+2025-03-24 13:48:19.442 +01:00 [ERR] Error sending email
+System.InvalidOperationException: The SMTP host was not specified.
+   at System.Net.Mail.SmtpClient.CheckHostAndPort()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at WindowsServiceMonitor.Worker.SendEmailAlert(List`1 stoppedServices, List`1 missingServices) in C:\ShriData\ATProjects\DM\MonitorWinServices\WindowsServiceMonitor\WindowsServiceMonitor\Worker.cs:line 218
+2025-03-24 14:00:46.096 +01:00 [INF] Email alert sent successfully.
+2025-03-24 14:02:22.412 +01:00 [INF] Email alert sent successfully.
+2025-03-24 14:18:18.548 +01:00 [INF] Email alert sent successfully.
+2025-03-24 14:18:37.041 +01:00 [INF] Email alert sent successfully.
+2025-03-24 16:35:22.022 +01:00 [INF] Email alert sent successfully.
+2025-03-24 16:36:22.409 +01:00 [INF] Email alert sent successfully.
+2025-03-24 16:37:22.822 +01:00 [INF] Email alert sent successfully.
+2025-03-24 16:38:23.223 +01:00 [INF] Email alert sent successfully.
+2025-03-24 16:39:23.662 +01:00 [INF] Email alert sent successfully.
+2025-03-24 16:40:24.061 +01:00 [INF] Email alert sent successfully.

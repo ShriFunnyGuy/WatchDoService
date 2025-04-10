@@ -1,0 +1,876 @@
+2025-03-27 11:19:02.339 +01:00 [INF] Now listening on: https://localhost:7281
+2025-03-27 11:19:02.372 +01:00 [INF] Now listening on: http://localhost:5105
+2025-03-27 11:19:02.496 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-27 11:19:02.499 +01:00 [INF] Hosting environment: Development
+2025-03-27 11:19:02.503 +01:00 [INF] Content root path: C:\ShriData\ATProjects\DM\MonitorWinServices\WindowsServiceMonitor\WindowsServiceMonitorAPI
+2025-03-27 11:19:02.586 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:19:02.648 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:19:02.666 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:19:04.035 +01:00 [INF] Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:19:04.166 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:19:04.221 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 1547.7133ms
+2025-03-27 11:19:04.226 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:19:04.246 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 1658.7258ms
+2025-03-27 11:19:05.262 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2025-03-27 11:19:05.486 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 225.0679ms
+2025-03-27 11:19:05.499 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui-bundle.js - null null
+2025-03-27 11:19:05.500 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.js - null null
+2025-03-27 11:19:05.499 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui-standalone-preset.js - null null
+2025-03-27 11:19:05.498 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-27 11:19:05.499 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui.css - null null
+2025-03-27 11:19:05.499 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.css - null null
+2025-03-27 11:19:05.538 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.js - 200 null application/javascript;charset=utf-8 37.9933ms
+2025-03-27 11:19:05.543 +01:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2025-03-27 11:19:05.543 +01:00 [INF] The file /swagger-ui-bundle.js was not modified
+2025-03-27 11:19:05.545 +01:00 [INF] The file /swagger-ui.css was not modified
+2025-03-27 11:19:05.548 +01:00 [INF] The file /index.css was not modified
+2025-03-27 11:19:05.556 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.css - 304 null text/css 57.3046ms
+2025-03-27 11:19:05.553 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 54.9233ms
+2025-03-27 11:19:05.554 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui-bundle.js - 304 null text/javascript 54.2477ms
+2025-03-27 11:19:05.554 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 54.3667ms
+2025-03-27 11:19:05.555 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui.css - 304 null text/css 56.4225ms
+2025-03-27 11:19:05.533 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-03-27 11:19:05.670 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 137.0919ms
+2025-03-27 11:19:05.818 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2025-03-27 11:19:05.853 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.1525ms
+2025-03-27 11:19:13.180 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:19:13.188 +01:00 [INF] CORS policy execution successful.
+2025-03-27 11:19:13.189 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:19:13.191 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:19:13.239 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:19:13.242 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:19:13.244 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 51.3643ms
+2025-03-27 11:19:13.245 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:19:13.246 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 66.7694ms
+2025-03-27 11:19:37.812 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:19:37.830 +01:00 [INF] CORS policy execution successful.
+2025-03-27 11:19:37.831 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:19:37.832 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:19:37.851 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:19:37.855 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:19:37.857 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 23.4177ms
+2025-03-27 11:19:37.858 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:19:37.859 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 47.2336ms
+2025-03-27 11:20:05.162 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:20:05.164 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:20:05.165 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:20:05.183 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:20:05.186 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:20:05.187 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 21.1673ms
+2025-03-27 11:20:05.188 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:20:05.189 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 27.5634ms
+2025-03-27 11:21:05.634 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:21:05.635 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:21:05.636 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:21:05.644 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:21:05.646 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:21:05.648 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 10.4189ms
+2025-03-27 11:21:05.649 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:21:05.650 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 16.2493ms
+2025-03-27 11:22:06.433 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:22:06.435 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:22:06.436 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:22:06.442 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:22:06.444 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:22:06.445 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 8.1912ms
+2025-03-27 11:22:06.446 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:22:06.448 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 15.1945ms
+2025-03-27 11:23:06.770 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:23:06.781 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:23:06.782 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:23:06.790 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:23:06.793 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:23:06.795 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 10.8607ms
+2025-03-27 11:23:06.795 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:23:06.796 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 26.4311ms
+2025-03-27 11:24:07.104 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:24:07.114 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:24:07.115 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:24:07.122 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:24:07.126 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:24:07.127 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 10.4577ms
+2025-03-27 11:24:07.129 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:24:07.130 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 25.6388ms
+2025-03-27 11:25:07.535 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:25:07.538 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:25:07.538 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:25:07.545 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:25:07.548 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:25:07.549 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 9.1336ms
+2025-03-27 11:25:07.550 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:25:07.551 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 16.701ms
+2025-03-27 11:26:07.994 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:26:08.003 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:26:08.004 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:26:08.010 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:26:08.012 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:26:08.013 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 7.9965ms
+2025-03-27 11:26:08.014 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:26:08.015 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 21.349ms
+2025-03-27 11:27:08.383 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:27:08.394 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:27:08.395 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:27:08.401 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:27:08.402 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:27:08.403 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 6.9951ms
+2025-03-27 11:27:08.404 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:27:08.405 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 21.2497ms
+2025-03-27 11:28:08.712 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:28:08.724 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:28:08.726 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:28:08.736 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:28:08.739 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:28:08.742 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 14.0443ms
+2025-03-27 11:28:08.744 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:28:08.747 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 35.6825ms
+2025-03-27 11:29:09.170 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:29:09.180 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:29:09.181 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:29:09.189 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:29:09.191 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:29:09.193 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 9.6357ms
+2025-03-27 11:29:09.194 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:29:09.195 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 25.4705ms
+2025-03-27 11:30:09.570 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:30:09.582 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:30:09.582 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:30:09.589 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:30:09.591 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:30:09.592 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 8.7067ms
+2025-03-27 11:30:09.593 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:30:09.594 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 23.6172ms
+2025-03-27 11:31:10.086 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:31:10.102 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:31:10.103 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:31:10.118 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:31:10.120 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:31:10.122 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 16.883ms
+2025-03-27 11:31:10.123 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:31:10.125 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 38.416ms
+2025-03-27 11:32:10.478 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:32:10.488 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:32:10.489 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:32:10.495 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:32:10.497 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:32:10.498 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 7.7415ms
+2025-03-27 11:32:10.499 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:32:10.500 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 21.4978ms
+2025-03-27 11:33:10.829 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:33:10.831 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:33:10.832 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:33:10.838 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:33:10.840 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:33:10.841 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 8.4037ms
+2025-03-27 11:33:10.842 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:33:10.843 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 14.2721ms
+2025-03-27 11:34:11.144 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:34:11.153 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:34:11.153 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:34:11.160 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:34:11.163 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:34:11.165 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 9.9737ms
+2025-03-27 11:34:11.166 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:34:11.168 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 23.5211ms
+2025-03-27 11:35:11.546 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:35:11.555 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:35:11.557 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:35:11.562 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:35:11.564 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:35:11.565 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 6.6052ms
+2025-03-27 11:35:11.566 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:35:11.567 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 20.8467ms
+2025-03-27 11:36:11.893 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:36:11.907 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:36:11.908 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:36:11.915 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:36:11.918 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:36:11.920 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 9.9232ms
+2025-03-27 11:36:11.921 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:36:11.924 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 30.569ms
+2025-03-27 11:37:12.251 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:37:12.263 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:37:12.263 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:37:12.270 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:37:12.272 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:37:12.272 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 7.8505ms
+2025-03-27 11:37:12.274 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:37:12.275 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 23.8025ms
+2025-03-27 11:38:12.542 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:38:12.546 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:38:12.547 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:38:12.553 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:38:12.557 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:38:12.558 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 9.9823ms
+2025-03-27 11:38:12.559 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:38:12.561 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 18.5501ms
+2025-03-27 11:39:12.906 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:39:12.916 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:39:12.917 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:39:12.923 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:39:12.925 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:39:12.927 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 8.7217ms
+2025-03-27 11:39:12.929 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:39:12.930 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 24.5729ms
+2025-03-27 11:40:13.285 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 11:40:13.294 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:40:13.295 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 11:40:13.301 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 11:40:13.304 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 11:40:13.307 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 10.1682ms
+2025-03-27 11:40:13.309 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 11:40:13.310 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 25.0178ms
+2025-03-27 14:26:36.349 +01:00 [INF] Now listening on: https://localhost:7281
+2025-03-27 14:26:36.409 +01:00 [INF] Now listening on: http://localhost:5105
+2025-03-27 14:26:36.536 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-27 14:26:36.540 +01:00 [INF] Hosting environment: Development
+2025-03-27 14:26:36.567 +01:00 [INF] Content root path: C:\ShriData\ATProjects\DM\MonitorWinServices\WindowsServiceMonitor\WindowsServiceMonitorAPI
+2025-03-27 14:26:38.189 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2025-03-27 14:26:38.564 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 385.9574ms
+2025-03-27 14:26:38.601 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-03-27 14:26:38.601 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.js - null null
+2025-03-27 14:26:38.601 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-27 14:26:38.615 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.js - 200 null application/javascript;charset=utf-8 14.6147ms
+2025-03-27 14:26:38.643 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 42.3743ms
+2025-03-27 14:26:38.725 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 124.2616ms
+2025-03-27 14:26:39.026 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2025-03-27 14:26:39.077 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.2426ms
+2025-03-27 14:26:44.400 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 14:26:44.410 +01:00 [INF] CORS policy execution successful.
+2025-03-27 14:26:44.416 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 14:26:44.438 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 14:26:45.069 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 14:26:45.830 +01:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 14:26:45.918 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 842.5315ms.
+2025-03-27 14:26:45.929 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 14:26:45.951 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 1505.2246ms
+2025-03-27 14:26:45.956 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 14:26:45.962 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 1563.3511ms
+2025-03-27 14:42:05.370 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 14:42:05.384 +01:00 [INF] CORS policy execution successful.
+2025-03-27 14:42:05.386 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 14:42:05.388 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 14:42:05.445 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 14:42:05.486 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 14:42:05.490 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 42.357ms.
+2025-03-27 14:42:05.493 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 14:42:05.494 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 102.8949ms
+2025-03-27 14:42:05.495 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 14:42:05.496 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 126.9856ms
+2025-03-27 14:42:33.675 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 14:42:33.680 +01:00 [INF] CORS policy execution successful.
+2025-03-27 14:42:33.681 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 14:42:33.683 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 14:42:33.708 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 14:42:33.721 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 14:42:33.723 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 12.336ms.
+2025-03-27 14:42:33.724 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 14:42:33.725 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 41.4773ms
+2025-03-27 14:42:33.726 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 14:42:33.727 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 52.5084ms
+2025-03-27 14:58:13.807 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2025-03-27 14:58:14.061 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 254.1005ms
+2025-03-27 14:58:14.086 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-27 14:58:14.160 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.js - null null
+2025-03-27 14:58:14.195 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 109.5674ms
+2025-03-27 14:58:14.167 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-03-27 14:58:14.233 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.js - 200 null application/javascript;charset=utf-8 72.7772ms
+2025-03-27 14:58:14.401 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 234.0097ms
+2025-03-27 14:58:14.818 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2025-03-27 14:58:14.853 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.6631ms
+2025-03-27 14:58:16.613 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 14:58:16.616 +01:00 [INF] CORS policy execution successful.
+2025-03-27 14:58:16.617 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 14:58:16.618 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 14:58:16.639 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 14:58:16.686 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 14:58:16.692 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 51.8966ms.
+2025-03-27 14:58:16.695 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 14:58:16.697 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 76.9067ms
+2025-03-27 14:58:16.698 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 14:58:16.699 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 86.0642ms
+2025-03-27 15:01:02.909 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:01:02.922 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:01:02.923 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:01:02.924 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:01:02.938 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:01:02.944 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:01:02.946 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.8311ms.
+2025-03-27 15:01:02.947 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:01:02.948 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 23.2019ms
+2025-03-27 15:01:02.949 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:01:02.950 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 41.2813ms
+2025-03-27 15:12:56.810 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:12:56.829 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:12:56.831 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:12:56.833 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:12:56.873 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:12:56.925 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:12:56.927 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 51.7919ms.
+2025-03-27 15:12:56.928 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:12:56.930 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 85.1499ms
+2025-03-27 15:12:56.931 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:12:56.932 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 121.8794ms
+2025-03-27 15:13:59.251 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:13:59.267 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:13:59.268 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:13:59.270 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:13:59.289 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:13:59.298 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:13:59.301 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 9.2227ms.
+2025-03-27 15:13:59.304 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:13:59.306 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 31.3109ms
+2025-03-27 15:13:59.307 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:13:59.308 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 57.6025ms
+2025-03-27 15:15:36.420 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:15:36.441 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:15:36.442 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:15:36.443 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:15:36.458 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:15:36.464 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:15:36.466 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7.0578ms.
+2025-03-27 15:15:36.468 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:15:36.471 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 26.2631ms
+2025-03-27 15:15:36.472 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:15:36.477 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 57.18ms
+2025-03-27 15:15:42.613 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:15:42.620 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:15:42.621 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:15:42.625 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:15:42.644 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:15:42.654 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:15:42.658 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 10.8096ms.
+2025-03-27 15:15:42.660 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:15:42.663 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 32.9591ms
+2025-03-27 15:15:42.666 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:15:42.667 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 54.2146ms
+2025-03-27 15:17:08.912 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:17:08.926 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:17:08.927 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:17:08.928 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:17:08.952 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:17:08.967 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:17:08.992 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 38.1809ms.
+2025-03-27 15:17:08.993 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:17:08.995 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 65.0542ms
+2025-03-27 15:17:08.996 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:17:08.997 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 85.6043ms
+2025-03-27 15:32:18.455 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:32:18.469 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:32:18.470 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:32:18.472 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:32:18.496 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:32:18.545 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:32:18.547 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 49.1081ms.
+2025-03-27 15:32:18.548 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:32:18.551 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 75.3872ms
+2025-03-27 15:32:18.553 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:32:18.554 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 99.6217ms
+2025-03-27 15:34:12.140 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:34:12.171 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:34:12.173 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:34:12.175 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:34:12.212 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:34:12.225 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:34:12.231 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 15.864ms.
+2025-03-27 15:34:12.235 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:34:12.244 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 61.3107ms
+2025-03-27 15:34:12.249 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:34:12.269 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 129.5058ms
+2025-03-27 15:36:42.904 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:36:42.917 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:36:42.919 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:36:42.920 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:36:42.941 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:36:42.988 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:36:42.993 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 50.5593ms.
+2025-03-27 15:36:42.997 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:36:43.001 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 78.5523ms
+2025-03-27 15:36:43.003 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:36:43.006 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 102.3887ms
+2025-03-27 15:42:35.395 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:42:35.407 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:42:35.409 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:42:35.411 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:42:35.430 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:42:35.518 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:42:35.521 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 89.6158ms.
+2025-03-27 15:42:35.524 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:42:35.526 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 111.568ms
+2025-03-27 15:42:35.527 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:42:35.528 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 133.9659ms
+2025-03-27 15:45:27.562 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:45:27.573 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:45:27.574 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:45:27.575 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:45:27.594 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:45:27.602 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:45:27.604 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7.2088ms.
+2025-03-27 15:45:27.605 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:45:27.606 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 29.5351ms
+2025-03-27 15:45:27.607 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:45:27.608 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 46.9564ms
+2025-03-27 15:45:59.503 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:45:59.514 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:45:59.516 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:45:59.517 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:45:59.533 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:45:59.541 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:45:59.543 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.7914ms.
+2025-03-27 15:45:59.544 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:45:59.545 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 25.3653ms
+2025-03-27 15:45:59.547 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:45:59.547 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 44.9324ms
+2025-03-27 15:46:03.219 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:46:03.221 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:46:03.222 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:46:03.223 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:46:03.240 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:46:03.317 +01:00 [INF] Executed DbCommand (73ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:46:03.320 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 78.6714ms.
+2025-03-27 15:46:03.323 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:46:03.325 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 101.0355ms
+2025-03-27 15:46:03.326 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:46:03.327 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 108.2887ms
+2025-03-27 15:48:01.625 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:48:01.627 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:48:01.628 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:48:01.628 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:48:01.644 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:48:01.649 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:48:01.661 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 15.5325ms.
+2025-03-27 15:48:01.667 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:48:01.671 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 41.7308ms
+2025-03-27 15:48:01.673 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:48:01.676 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 51.5256ms
+2025-03-27 15:48:07.155 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:48:07.159 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:48:07.159 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:48:07.161 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:48:07.173 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:48:07.207 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:48:07.210 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 35.8034ms.
+2025-03-27 15:48:07.215 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:48:07.221 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 58.1625ms
+2025-03-27 15:48:07.234 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:48:07.237 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 81.805ms
+2025-03-27 15:48:10.813 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:48:10.816 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:48:10.817 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:48:10.817 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:48:10.832 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:48:10.837 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:48:10.839 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.0121ms.
+2025-03-27 15:48:10.840 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:48:10.842 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 23.487ms
+2025-03-27 15:48:10.844 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:48:10.848 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 35.0904ms
+2025-03-27 15:48:16.333 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:48:16.338 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:48:16.338 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:48:16.339 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:48:16.351 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:48:16.361 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:48:16.363 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 10.2032ms.
+2025-03-27 15:48:16.365 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:48:16.366 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 25.6251ms
+2025-03-27 15:48:16.368 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:48:16.370 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 37.2118ms
+2025-03-27 15:49:33.620 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:49:33.633 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:49:33.633 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:49:33.634 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:49:33.646 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:49:33.653 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:49:33.654 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.5279ms.
+2025-03-27 15:49:33.656 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:49:33.657 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 22.1585ms
+2025-03-27 15:49:33.658 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:49:33.659 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 39.3236ms
+2025-03-27 15:58:27.188 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 15:58:27.194 +01:00 [INF] CORS policy execution successful.
+2025-03-27 15:58:27.195 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:58:27.196 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 15:58:27.214 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 15:58:27.263 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 15:58:27.267 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 50.7274ms.
+2025-03-27 15:58:27.269 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 15:58:27.271 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 73.3802ms
+2025-03-27 15:58:27.272 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 15:58:27.273 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 89.9427ms
+2025-03-27 16:12:31.523 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:12:31.554 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:12:31.555 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:12:31.557 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:12:31.581 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:12:31.625 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:12:31.628 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 43.3667ms.
+2025-03-27 16:12:31.629 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:12:31.632 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 72.5244ms
+2025-03-27 16:12:31.633 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:12:31.634 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 110.9363ms
+2025-03-27 16:14:13.954 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:14:13.969 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:14:13.971 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:14:13.973 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:14:13.990 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:14:13.996 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:14:13.997 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.7618ms.
+2025-03-27 16:14:13.999 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:14:14.000 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 26.1071ms
+2025-03-27 16:14:14.010 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:14:14.014 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 59.2286ms
+2025-03-27 16:14:47.325 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:14:47.339 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:14:47.340 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:14:47.341 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:14:47.362 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:14:47.370 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:14:47.372 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 9.0556ms.
+2025-03-27 16:14:47.374 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:14:47.376 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 33.3201ms
+2025-03-27 16:14:47.377 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:14:47.392 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 66.8214ms
+2025-03-27 16:16:47.175 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:16:47.190 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:16:47.191 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:16:47.192 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:16:47.210 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:16:47.217 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:16:47.218 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7.1798ms.
+2025-03-27 16:16:47.220 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:16:47.221 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 27.2878ms
+2025-03-27 16:16:47.265 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:16:47.271 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 96.4737ms
+2025-03-27 16:17:45.995 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:17:46.012 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:17:46.013 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:17:46.014 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:17:46.033 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:17:46.072 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:17:46.086 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 51.5481ms.
+2025-03-27 16:17:46.089 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:17:46.090 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 74.9114ms
+2025-03-27 16:17:46.092 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:17:46.093 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 98.2021ms
+2025-03-27 16:19:37.935 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:19:37.950 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:19:37.951 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:19:37.953 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:19:37.969 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:19:37.975 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:19:37.977 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7.3861ms.
+2025-03-27 16:19:37.980 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:19:37.981 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 27.3079ms
+2025-03-27 16:19:37.994 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:19:37.997 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 62.8708ms
+2025-03-27 16:20:51.355 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:20:51.378 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:20:51.379 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:20:51.381 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:20:51.397 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:20:51.405 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:20:51.407 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.5705ms.
+2025-03-27 16:20:51.409 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:20:51.411 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 27.6599ms
+2025-03-27 16:20:51.422 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:20:51.423 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 68.4364ms
+2025-03-27 16:21:35.390 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:21:35.404 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:21:35.405 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:21:35.407 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:21:35.426 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:21:35.433 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:21:35.438 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 9.9292ms.
+2025-03-27 16:21:35.439 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:21:35.440 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 31.5093ms
+2025-03-27 16:21:35.441 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:21:35.452 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 62.2541ms
+2025-03-27 16:23:15.119 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:23:15.149 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:23:15.151 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:23:15.153 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:23:15.178 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:23:15.193 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:23:15.198 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 17.6976ms.
+2025-03-27 16:23:15.201 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:23:15.203 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 49.0957ms
+2025-03-27 16:23:15.204 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:23:15.205 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 86.3225ms
+2025-03-27 16:24:45.538 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:24:45.559 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:24:45.562 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:24:45.564 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:24:45.581 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:24:45.589 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:24:45.592 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7.4525ms.
+2025-03-27 16:24:45.595 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:24:45.596 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 30.5855ms
+2025-03-27 16:24:45.603 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:24:45.606 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 67.397ms
+2025-03-27 16:26:02.669 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:26:02.685 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:26:02.695 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:26:02.699 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:26:02.724 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:26:02.731 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:26:02.735 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 9.1884ms.
+2025-03-27 16:26:02.737 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:26:02.739 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 31.2816ms
+2025-03-27 16:26:02.740 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:26:02.751 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 82.8641ms
+2025-03-27 16:26:21.315 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:26:21.321 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:26:21.322 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:26:21.324 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:26:21.339 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:26:21.346 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:26:21.348 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.9518ms.
+2025-03-27 16:26:21.351 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:26:21.353 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 24.9694ms
+2025-03-27 16:26:21.354 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:26:21.355 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 40.1231ms
+2025-03-27 16:26:26.652 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:26:26.654 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:26:26.654 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:26:26.655 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:26:26.668 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:26:26.674 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:26:26.677 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7.1674ms.
+2025-03-27 16:26:26.688 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:26:26.690 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 33.8354ms
+2025-03-27 16:26:26.692 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:26:26.696 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 44.3822ms
+2025-03-27 16:27:50.326 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:27:50.338 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:27:50.339 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:27:50.341 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:27:50.355 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:27:50.363 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:27:50.365 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.6584ms.
+2025-03-27 16:27:50.370 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:27:50.371 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 28.5604ms
+2025-03-27 16:27:50.372 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:27:50.375 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 49.1296ms
+2025-03-27 16:29:53.477 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:29:53.492 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:29:53.493 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:29:53.495 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:29:53.511 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:29:53.518 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:29:53.522 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 8.0989ms.
+2025-03-27 16:29:53.523 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:29:53.525 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 28.0248ms
+2025-03-27 16:29:53.526 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:29:53.527 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 50.1659ms
+2025-03-27 16:30:08.345 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:30:08.350 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:30:08.351 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:30:08.352 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:30:08.364 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:30:08.369 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:30:08.371 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.3284ms.
+2025-03-27 16:30:08.373 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:30:08.375 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 22.074ms
+2025-03-27 16:30:08.376 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:30:08.377 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 31.7183ms
+2025-03-27 16:31:30.175 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:31:30.187 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:31:30.187 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:31:30.188 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:31:30.201 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:31:30.209 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:31:30.211 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.0709ms.
+2025-03-27 16:31:30.211 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:31:30.212 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 23.0181ms
+2025-03-27 16:31:30.215 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:31:30.223 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 48.4183ms
+2025-03-27 16:34:33.300 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:34:33.315 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:34:33.316 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:34:33.317 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:34:33.331 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:34:33.335 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:34:33.337 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.0583ms.
+2025-03-27 16:34:33.338 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:34:33.338 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 18.7758ms
+2025-03-27 16:34:33.339 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:34:33.340 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 40.1834ms
+2025-03-27 16:34:40.949 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:34:40.955 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:34:40.955 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:34:40.956 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:34:40.968 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:34:40.974 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:34:40.977 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7.0432ms.
+2025-03-27 16:34:40.979 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:34:40.980 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 21.5409ms
+2025-03-27 16:34:40.981 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:34:40.982 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 32.4943ms
+2025-03-27 16:34:56.625 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:34:56.629 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:34:56.630 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:34:56.631 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:34:56.644 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:34:56.658 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:34:56.663 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 18.034ms.
+2025-03-27 16:34:56.666 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:34:56.667 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 35.1811ms
+2025-03-27 16:34:56.669 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:34:56.669 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 44.7801ms
+2025-03-27 16:35:12.190 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - null null
+2025-03-27 16:35:12.194 +01:00 [INF] CORS policy execution successful.
+2025-03-27 16:35:12.196 +01:00 [INF] Executing endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:35:12.197 +01:00 [INF] Route matched with {action = "GetAllWinServices", controller = "WatchDogWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWinServices() on controller WatchDogServiceApi.Controllers.WatchDogWinServicesController (WatchDogServiceApi).
+2025-03-27 16:35:12.215 +01:00 [INF] Executing action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) - Validation state: "Valid"
+2025-03-27 16:35:12.227 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_watchdogwinservices] AS [a]
+2025-03-27 16:35:12.231 +01:00 [INF] Executed action method WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 10.7056ms.
+2025-03-27 16:35:12.236 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WatchDogServiceApi.Dto.AdminWatchDogWinServicesDto, WatchDogServiceApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-27 16:35:12.237 +01:00 [INF] Executed action WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi) in 38.0716ms
+2025-03-27 16:35:12.239 +01:00 [INF] Executed endpoint 'WatchDogServiceApi.Controllers.WatchDogWinServicesController.GetAllWinServices (WatchDogServiceApi)'
+2025-03-27 16:35:12.240 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/WatchDogWinServices/GetAllWinServices - 200 null application/json; charset=utf-8 50.7036ms
+2025-03-27 18:37:52.648 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2025-03-27 18:37:53.913 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 1264.7471ms
+2025-03-27 18:37:53.974 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.js - null null
+2025-03-27 18:37:54.000 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-27 18:37:54.032 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.js - 200 null application/javascript;charset=utf-8 58.1368ms
+2025-03-27 18:37:54.038 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 38.0827ms
+2025-03-27 18:37:54.051 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-03-27 18:37:54.203 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 151.8969ms
+2025-03-27 18:37:54.544 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2025-03-27 18:37:54.575 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.0851ms

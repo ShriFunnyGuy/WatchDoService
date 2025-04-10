@@ -1,0 +1,6 @@
+@WindowsServiceMonitorAPI_HostAddress = http://localhost:5105
+
+GET {{WindowsServiceMonitorAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

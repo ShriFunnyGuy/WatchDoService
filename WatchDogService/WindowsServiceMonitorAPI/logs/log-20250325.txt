@@ -1,0 +1,117 @@
+2025-03-25 12:17:12.507 +01:00 [INF] Now listening on: https://localhost:7281
+2025-03-25 12:17:12.557 +01:00 [INF] Now listening on: http://localhost:5105
+2025-03-25 12:17:12.684 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 12:17:12.689 +01:00 [INF] Hosting environment: Development
+2025-03-25 12:17:12.693 +01:00 [INF] Content root path: C:\ShriData\ATProjects\DM\MonitorWinServices\WindowsServiceMonitor\WindowsServiceMonitorAPI
+2025-03-25 12:17:13.093 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-25 12:17:13.225 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-25 12:17:13.263 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-25 12:17:16.048 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2025-03-25 12:17:17.230 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 1180.6626ms
+2025-03-25 12:17:17.295 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui.css - null null
+2025-03-25 12:17:17.297 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.css - null null
+2025-03-25 12:17:17.296 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.js - null null
+2025-03-25 12:17:17.296 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui-bundle.js - null null
+2025-03-25 12:17:17.373 +01:00 [INF] The file /index.css was not modified
+2025-03-25 12:17:17.372 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.js - 200 null application/javascript;charset=utf-8 75.191ms
+2025-03-25 12:17:17.400 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.css - 304 null text/css 102.0619ms
+2025-03-25 12:17:17.374 +01:00 [INF] The file /swagger-ui-bundle.js was not modified
+2025-03-25 12:17:17.373 +01:00 [INF] The file /swagger-ui.css was not modified
+2025-03-25 12:17:17.417 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui.css - 304 null text/css 121.9068ms
+2025-03-25 12:17:17.297 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui-standalone-preset.js - null null
+2025-03-25 12:17:17.416 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui-bundle.js - 304 null text/javascript 120.1766ms
+2025-03-25 12:17:17.296 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-25 12:17:17.317 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-03-25 12:17:17.446 +01:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2025-03-25 12:17:17.479 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 182.0657ms
+2025-03-25 12:17:17.486 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 190.0561ms
+2025-03-25 12:17:17.602 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 285.5323ms
+2025-03-25 12:17:17.836 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2025-03-25 12:17:17.885 +01:00 [INF] Executed DbCommand (99ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_monitorwinservices] AS [a]
+2025-03-25 12:17:17.907 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.9292ms
+2025-03-25 12:17:18.165 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.AdminMonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-25 12:17:18.265 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 4990.5859ms
+2025-03-25 12:17:18.269 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-25 12:17:18.284 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 5195.5539ms
+2025-03-25 12:18:19.138 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-25 12:18:19.145 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-25 12:18:19.147 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-25 12:18:19.177 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_monitorwinservices] AS [a]
+2025-03-25 12:18:19.183 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.AdminMonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-25 12:18:19.186 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 35.2687ms
+2025-03-25 12:18:19.190 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-25 12:18:19.192 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 53.94ms
+2025-03-25 12:19:19.582 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-25 12:19:19.592 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-25 12:19:19.593 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-25 12:19:19.658 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_monitorwinservices] AS [a]
+2025-03-25 12:19:19.660 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.AdminMonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-25 12:19:19.662 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 66.6546ms
+2025-03-25 12:19:19.663 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-25 12:19:19.664 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 81.7706ms
+2025-03-25 12:20:19.997 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-25 12:20:20.000 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-25 12:20:20.001 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-25 12:20:20.027 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_monitorwinservices] AS [a]
+2025-03-25 12:20:20.033 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.AdminMonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-25 12:20:20.035 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 31.4557ms
+2025-03-25 12:20:20.037 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-25 12:20:20.038 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 43.0947ms
+2025-03-25 12:21:20.402 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-25 12:21:20.415 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-25 12:21:20.420 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-25 12:21:20.428 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_monitorwinservices] AS [a]
+2025-03-25 12:21:20.430 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.AdminMonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-25 12:21:20.433 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 10.3448ms
+2025-03-25 12:21:20.434 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-25 12:21:20.436 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 34.5509ms
+2025-03-25 12:22:20.766 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-25 12:22:20.777 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-25 12:22:20.779 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-25 12:22:20.791 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_monitorwinservices] AS [a]
+2025-03-25 12:22:20.793 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.AdminMonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-25 12:22:20.795 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 13.3198ms
+2025-03-25 12:22:20.801 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-25 12:22:20.803 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 36.452ms
+2025-03-25 12:23:21.131 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-25 12:23:21.135 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-25 12:23:21.135 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-25 12:23:21.144 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_monitorwinservices] AS [a]
+2025-03-25 12:23:21.146 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.AdminMonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-25 12:23:21.148 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 9.4723ms
+2025-03-25 12:23:21.149 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-25 12:23:21.150 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 19.5708ms
+2025-03-25 12:24:21.470 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-25 12:24:21.481 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-25 12:24:21.482 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-25 12:24:21.489 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_monitorwinservices] AS [a]
+2025-03-25 12:24:21.493 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.AdminMonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-25 12:24:21.539 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 55.5083ms
+2025-03-25 12:24:21.542 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-25 12:24:21.543 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 73.2324ms
+2025-03-25 12:25:21.867 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-25 12:25:21.879 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-25 12:25:21.881 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-25 12:25:21.887 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_monitorwinservices] AS [a]
+2025-03-25 12:25:21.889 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.AdminMonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-25 12:25:21.892 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 10.2508ms
+2025-03-25 12:25:21.894 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-25 12:25:21.895 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 29.287ms

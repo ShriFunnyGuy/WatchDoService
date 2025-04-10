@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "WindowsServiceMonitor\\WatchDogService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "WindowsServiceMonitorAPI\\WatchDogServiceApi.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

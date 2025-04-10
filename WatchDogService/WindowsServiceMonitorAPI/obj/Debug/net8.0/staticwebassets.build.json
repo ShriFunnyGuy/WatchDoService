@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "5D0pTC1Jb24bBcfiiMctXjrRcSpnNNozyTlV6O98Ykk=",
+  "Source": "WatchDogServiceApi",
+  "BasePath": "_content/WatchDogServiceApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

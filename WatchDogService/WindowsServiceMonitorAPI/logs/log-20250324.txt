@@ -1,0 +1,342 @@
+2025-03-24 10:35:21.717 +01:00 [INF] Now listening on: https://localhost:7281
+2025-03-24 10:35:21.808 +01:00 [INF] Now listening on: http://localhost:5105
+2025-03-24 10:35:22.019 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 10:35:22.024 +01:00 [INF] Hosting environment: Development
+2025-03-24 10:35:22.033 +01:00 [INF] Content root path: C:\ShriData\ATProjects\DM\MonitorWinServices\WindowsServiceMonitor\WindowsServiceMonitorAPI
+2025-03-24 10:35:25.338 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2025-03-24 10:35:26.013 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 678.2308ms
+2025-03-24 10:35:26.098 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.css - null null
+2025-03-24 10:35:26.099 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui-bundle.js - null null
+2025-03-24 10:35:26.100 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.js - null null
+2025-03-24 10:35:26.099 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui-standalone-preset.js - null null
+2025-03-24 10:35:26.098 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-24 10:35:26.099 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-03-24 10:35:26.098 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui.css - null null
+2025-03-24 10:35:26.150 +01:00 [INF] The file /swagger-ui-bundle.js was not modified
+2025-03-24 10:35:26.149 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.js - 200 null application/javascript;charset=utf-8 48.7545ms
+2025-03-24 10:35:26.152 +01:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2025-03-24 10:35:26.167 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 69.1444ms
+2025-03-24 10:35:26.150 +01:00 [INF] The file /index.css was not modified
+2025-03-24 10:35:26.176 +01:00 [INF] The file /swagger-ui.css was not modified
+2025-03-24 10:35:26.186 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui-bundle.js - 304 null text/javascript 87.3235ms
+2025-03-24 10:35:26.198 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 98.0843ms
+2025-03-24 10:35:26.206 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.css - 304 null text/css 107.627ms
+2025-03-24 10:35:26.207 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui.css - 304 null text/css 109.2189ms
+2025-03-24 10:35:26.272 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 172.7475ms
+2025-03-24 10:35:26.598 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2025-03-24 10:35:26.700 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 102.5838ms
+2025-03-24 10:43:57.557 +01:00 [INF] Now listening on: https://localhost:7281
+2025-03-24 10:43:57.773 +01:00 [INF] Now listening on: http://localhost:5105
+2025-03-24 10:43:58.122 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 10:43:58.184 +01:00 [INF] Hosting environment: Development
+2025-03-24 10:43:58.209 +01:00 [INF] Content root path: C:\ShriData\ATProjects\DM\MonitorWinServices\WindowsServiceMonitor\WindowsServiceMonitorAPI
+2025-03-24 10:44:00.401 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2025-03-24 10:44:00.908 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 522.1707ms
+2025-03-24 10:44:00.975 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-24 10:44:00.975 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-03-24 10:44:00.975 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.js - null null
+2025-03-24 10:44:01.000 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.js - 200 null application/javascript;charset=utf-8 24.9544ms
+2025-03-24 10:44:01.019 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 44.9134ms
+2025-03-24 10:44:01.066 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 90.8395ms
+2025-03-24 10:44:01.349 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2025-03-24 10:44:01.397 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 47.4269ms
+2025-03-24 11:20:27.532 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2025-03-24 11:20:27.626 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 99.4302ms
+2025-03-24 11:20:27.652 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-24 11:20:27.657 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.js - null null
+2025-03-24 11:20:27.679 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 26.6518ms
+2025-03-24 11:20:27.682 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.js - 200 null application/javascript;charset=utf-8 24.5472ms
+2025-03-24 11:20:27.756 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-03-24 11:20:27.833 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 79.1064ms
+2025-03-24 11:20:27.968 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2025-03-24 11:20:28.016 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 48.2203ms
+2025-03-24 11:48:59.555 +01:00 [INF] Now listening on: https://localhost:7281
+2025-03-24 11:48:59.610 +01:00 [INF] Now listening on: http://localhost:5105
+2025-03-24 11:48:59.758 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 11:48:59.763 +01:00 [INF] Hosting environment: Development
+2025-03-24 11:48:59.766 +01:00 [INF] Content root path: C:\ShriData\ATProjects\DM\MonitorWinServices\WindowsServiceMonitor\WindowsServiceMonitorAPI
+2025-03-24 11:49:01.797 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2025-03-24 11:49:02.306 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 524.7623ms
+2025-03-24 11:49:02.384 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.js - null null
+2025-03-24 11:49:02.384 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-24 11:49:02.386 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-03-24 11:49:02.396 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.js - 200 null application/javascript;charset=utf-8 12.11ms
+2025-03-24 11:49:02.434 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 49.687ms
+2025-03-24 11:49:02.490 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.822ms
+2025-03-24 11:49:02.707 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2025-03-24 11:49:02.769 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.7825ms
+2025-03-24 12:46:29.553 +01:00 [INF] Now listening on: https://localhost:7281
+2025-03-24 12:46:29.628 +01:00 [INF] Now listening on: http://localhost:5105
+2025-03-24 12:46:29.783 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 12:46:29.791 +01:00 [INF] Hosting environment: Development
+2025-03-24 12:46:29.800 +01:00 [INF] Content root path: C:\ShriData\ATProjects\DM\MonitorWinServices\WindowsServiceMonitor\WindowsServiceMonitorAPI
+2025-03-24 12:46:31.705 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2025-03-24 12:46:32.083 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 386.2264ms
+2025-03-24 12:46:32.161 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-24 12:46:32.161 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-03-24 12:46:32.161 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.js - null null
+2025-03-24 12:46:32.187 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 32.9369ms
+2025-03-24 12:46:32.190 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.js - 200 null application/javascript;charset=utf-8 28.9852ms
+2025-03-24 12:46:32.229 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.086ms
+2025-03-24 12:46:32.518 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2025-03-24 12:46:32.592 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 75.1092ms
+2025-03-24 13:44:44.987 +01:00 [INF] Now listening on: https://localhost:7281
+2025-03-24 13:44:45.055 +01:00 [INF] Now listening on: http://localhost:5105
+2025-03-24 13:44:45.185 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-24 13:44:45.210 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 13:44:45.215 +01:00 [INF] Hosting environment: Development
+2025-03-24 13:44:45.219 +01:00 [INF] Content root path: C:\ShriData\ATProjects\DM\MonitorWinServices\WindowsServiceMonitor\WindowsServiceMonitorAPI
+2025-03-24 13:44:45.263 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 13:44:45.292 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-24 13:44:47.500 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2025-03-24 13:44:47.806 +01:00 [INF] Executed DbCommand (81ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Pid], [m].[CreatedById], [m].[CreatedDate], [m].[ModifyById], [m].[ModifyDate], [m].[ServerName], [m].[ServiceName], [m].[ServiceStatus]
+FROM [MonitorWinServices] AS [m]
+2025-03-24 13:44:47.808 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 306.4637ms
+2025-03-24 13:44:47.882 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-24 13:44:47.887 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.js - null null
+2025-03-24 13:44:47.887 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-03-24 13:44:47.904 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.js - 200 null application/javascript;charset=utf-8 17.0921ms
+2025-03-24 13:44:47.931 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 48.5101ms
+2025-03-24 13:44:47.990 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 102.3289ms
+2025-03-24 13:44:48.046 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.MonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 13:44:48.107 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 2806.7898ms
+2025-03-24 13:44:48.143 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 13:44:48.170 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 2988.8921ms
+2025-03-24 13:44:48.205 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2025-03-24 13:44:48.244 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.659ms
+2025-03-24 13:46:35.256 +01:00 [INF] Now listening on: https://localhost:7281
+2025-03-24 13:46:35.303 +01:00 [INF] Now listening on: http://localhost:5105
+2025-03-24 13:46:35.468 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 13:46:35.473 +01:00 [INF] Hosting environment: Development
+2025-03-24 13:46:35.483 +01:00 [INF] Content root path: C:\ShriData\ATProjects\DM\MonitorWinServices\WindowsServiceMonitor\WindowsServiceMonitorAPI
+2025-03-24 13:46:35.850 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-24 13:46:35.893 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 13:46:35.933 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-24 13:46:37.689 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2025-03-24 13:46:38.061 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 369.1182ms
+2025-03-24 13:46:38.069 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-24 13:46:38.075 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.js - null null
+2025-03-24 13:46:38.108 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.js - 200 null application/javascript;charset=utf-8 32.9026ms
+2025-03-24 13:46:38.118 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 49.4116ms
+2025-03-24 13:46:38.136 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-03-24 13:46:38.152 +01:00 [INF] Executed DbCommand (83ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Pid], [m].[CreatedById], [m].[CreatedDate], [m].[ModifyById], [m].[ModifyDate], [m].[ServerName], [m].[ServiceName], [m].[ServiceStatus]
+FROM [MonitorWinServices] AS [m]
+2025-03-24 13:46:38.203 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.9357ms
+2025-03-24 13:46:38.301 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.MonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 13:46:38.347 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 2402.5702ms
+2025-03-24 13:46:38.352 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 13:46:38.368 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 2520.8697ms
+2025-03-24 13:47:53.482 +01:00 [INF] Now listening on: https://localhost:7281
+2025-03-24 13:47:53.535 +01:00 [INF] Now listening on: http://localhost:5105
+2025-03-24 13:47:53.657 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 13:47:53.660 +01:00 [INF] Hosting environment: Development
+2025-03-24 13:47:53.663 +01:00 [INF] Content root path: C:\ShriData\ATProjects\DM\MonitorWinServices\WindowsServiceMonitor\WindowsServiceMonitorAPI
+2025-03-24 13:47:54.071 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-24 13:47:54.116 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 13:47:54.140 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-24 13:47:55.697 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2025-03-24 13:47:56.102 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 403.47ms
+2025-03-24 13:47:56.174 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.js - null null
+2025-03-24 13:47:56.174 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-24 13:47:56.175 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-03-24 13:47:56.182 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.js - 200 null application/javascript;charset=utf-8 7.2664ms
+2025-03-24 13:47:56.221 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 46.0631ms
+2025-03-24 13:47:56.284 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 109.7826ms
+2025-03-24 13:47:56.473 +01:00 [INF] Executed DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Pid], [m].[CreatedById], [m].[CreatedDate], [m].[ModifyById], [m].[ModifyDate], [m].[ServerName], [m].[ServiceName], [m].[ServiceStatus]
+FROM [MonitorWinServices] AS [m]
+2025-03-24 13:47:56.501 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2025-03-24 13:47:56.546 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 44.4488ms
+2025-03-24 13:47:56.711 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.MonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 13:47:56.833 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 2685.1258ms
+2025-03-24 13:47:56.836 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 13:47:56.848 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 2780.3061ms
+2025-03-24 14:00:17.569 +01:00 [INF] Now listening on: https://localhost:7281
+2025-03-24 14:00:17.635 +01:00 [INF] Now listening on: http://localhost:5105
+2025-03-24 14:00:17.974 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 14:00:17.979 +01:00 [INF] Hosting environment: Development
+2025-03-24 14:00:17.984 +01:00 [INF] Content root path: C:\ShriData\ATProjects\DM\MonitorWinServices\WindowsServiceMonitor\WindowsServiceMonitorAPI
+2025-03-24 14:00:18.067 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-24 14:00:18.124 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 14:00:18.155 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-24 14:00:19.780 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2025-03-24 14:00:20.089 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 308.2383ms
+2025-03-24 14:00:20.164 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-24 14:00:20.164 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.js - null null
+2025-03-24 14:00:20.164 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-03-24 14:00:20.179 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.js - 200 null application/javascript;charset=utf-8 15.1202ms
+2025-03-24 14:00:20.189 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 25.0693ms
+2025-03-24 14:00:20.270 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 106.2201ms
+2025-03-24 14:00:20.463 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2025-03-24 14:00:20.496 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.8066ms
+2025-03-24 14:00:20.612 +01:00 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Pid], [m].[CreatedById], [m].[CreatedDate], [m].[ModifyById], [m].[ModifyDate], [m].[ServerName], [m].[ServiceName], [m].[ServiceStatus]
+FROM [MonitorWinServices] AS [m]
+2025-03-24 14:00:20.783 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.MonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 14:00:20.830 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 2667.059ms
+2025-03-24 14:00:20.834 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 14:00:20.842 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 2777.9416ms
+2025-03-24 14:02:19.872 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-24 14:02:19.878 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 14:02:19.880 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-24 14:02:19.914 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Pid], [m].[CreatedById], [m].[CreatedDate], [m].[ModifyById], [m].[ModifyDate], [m].[ServerName], [m].[ServiceName], [m].[ServiceStatus]
+FROM [MonitorWinServices] AS [m]
+2025-03-24 14:02:19.919 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.MonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 14:02:19.921 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 36.933ms
+2025-03-24 14:02:19.923 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 14:02:19.925 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 52.7824ms
+2025-03-24 14:18:14.451 +01:00 [INF] Now listening on: https://localhost:7281
+2025-03-24 14:18:14.499 +01:00 [INF] Now listening on: http://localhost:5105
+2025-03-24 14:18:14.623 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 14:18:14.627 +01:00 [INF] Hosting environment: Development
+2025-03-24 14:18:14.631 +01:00 [INF] Content root path: C:\ShriData\ATProjects\DM\MonitorWinServices\WindowsServiceMonitor\WindowsServiceMonitorAPI
+2025-03-24 14:18:15.068 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-24 14:18:15.130 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 14:18:15.161 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-24 14:18:16.964 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2025-03-24 14:18:17.526 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 560.1502ms
+2025-03-24 14:18:17.589 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-03-24 14:18:17.589 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.js - null null
+2025-03-24 14:18:17.589 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-24 14:18:17.622 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.js - 200 null application/javascript;charset=utf-8 32.8042ms
+2025-03-24 14:18:17.655 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 65.375ms
+2025-03-24 14:18:17.699 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 109.3327ms
+2025-03-24 14:18:17.730 +01:00 [INF] Executed DbCommand (68ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Pid], [m].[CreatedById], [m].[CreatedDate], [m].[ModifyById], [m].[ModifyDate], [m].[ServerName], [m].[ServiceName], [m].[ServiceStatus]
+FROM [MonitorWinServices] AS [m]
+2025-03-24 14:18:17.904 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.MonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 14:18:17.918 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2025-03-24 14:18:17.967 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 2792.3529ms
+2025-03-24 14:18:17.969 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.1547ms
+2025-03-24 14:18:17.970 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 14:18:17.985 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 2920.4583ms
+2025-03-24 14:18:32.467 +01:00 [INF] Now listening on: https://localhost:7281
+2025-03-24 14:18:32.516 +01:00 [INF] Now listening on: http://localhost:5105
+2025-03-24 14:18:32.668 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 14:18:32.674 +01:00 [INF] Hosting environment: Development
+2025-03-24 14:18:32.679 +01:00 [INF] Content root path: C:\ShriData\ATProjects\DM\MonitorWinServices\WindowsServiceMonitor\WindowsServiceMonitorAPI
+2025-03-24 14:18:33.289 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-24 14:18:33.357 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 14:18:33.395 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-24 14:18:35.242 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2025-03-24 14:18:35.784 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 540.8948ms
+2025-03-24 14:18:35.865 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-03-24 14:18:35.866 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.js - null null
+2025-03-24 14:18:35.866 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-24 14:18:35.886 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.js - 200 null application/javascript;charset=utf-8 19.7338ms
+2025-03-24 14:18:35.911 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 44.7871ms
+2025-03-24 14:18:36.003 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 137.9117ms
+2025-03-24 14:18:36.162 +01:00 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Pid], [m].[CreatedById], [m].[CreatedDate], [m].[ModifyById], [m].[ModifyDate], [m].[ServerName], [m].[ServiceName], [m].[ServiceStatus]
+FROM [MonitorWinServices] AS [m]
+2025-03-24 14:18:36.247 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2025-03-24 14:18:36.285 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 38.3299ms
+2025-03-24 14:18:36.424 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.MonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 14:18:36.513 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 3108.5252ms
+2025-03-24 14:18:36.519 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 14:18:36.539 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 3254.0865ms
+2025-03-24 16:35:17.940 +01:00 [INF] Now listening on: https://localhost:7281
+2025-03-24 16:35:17.992 +01:00 [INF] Now listening on: http://localhost:5105
+2025-03-24 16:35:18.145 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 16:35:18.151 +01:00 [INF] Hosting environment: Development
+2025-03-24 16:35:18.155 +01:00 [INF] Content root path: C:\ShriData\ATProjects\DM\MonitorWinServices\WindowsServiceMonitor\WindowsServiceMonitorAPI
+2025-03-24 16:35:18.316 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-24 16:35:18.382 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 16:35:18.407 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-24 16:35:20.789 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2025-03-24 16:35:21.047 +01:00 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Pid], [m].[CreatedById], [m].[CreatedDate], [m].[ModifyById], [m].[ModifyDate], [m].[ServerName], [m].[ServiceName], [m].[ServiceStatus]
+FROM [MonitorWinServices] AS [m]
+2025-03-24 16:35:21.079 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 289.5264ms
+2025-03-24 16:35:21.149 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-24 16:35:21.149 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-03-24 16:35:21.149 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.js - null null
+2025-03-24 16:35:21.200 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.js - 200 null application/javascript;charset=utf-8 50.4438ms
+2025-03-24 16:35:21.202 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 52.7471ms
+2025-03-24 16:35:21.261 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 112.0219ms
+2025-03-24 16:35:21.290 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.MonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 16:35:21.356 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 2941.4105ms
+2025-03-24 16:35:21.360 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 16:35:21.376 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 3061.6399ms
+2025-03-24 16:35:21.485 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2025-03-24 16:35:21.568 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 84.0841ms
+2025-03-24 16:36:22.094 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-24 16:36:22.098 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 16:36:22.099 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-24 16:36:22.132 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Pid], [m].[CreatedById], [m].[CreatedDate], [m].[ModifyById], [m].[ModifyDate], [m].[ServerName], [m].[ServiceName], [m].[ServiceStatus]
+FROM [MonitorWinServices] AS [m]
+2025-03-24 16:36:22.136 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.MonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 16:36:22.138 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 37.8189ms
+2025-03-24 16:36:22.139 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 16:36:22.140 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 46.6501ms
+2025-03-24 16:37:22.497 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-24 16:37:22.501 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 16:37:22.502 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-24 16:37:22.558 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Pid], [m].[CreatedById], [m].[CreatedDate], [m].[ModifyById], [m].[ModifyDate], [m].[ServerName], [m].[ServiceName], [m].[ServiceStatus]
+FROM [MonitorWinServices] AS [m]
+2025-03-24 16:37:22.560 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.MonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 16:37:22.563 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 57.8142ms
+2025-03-24 16:37:22.564 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 16:37:22.566 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 68.7645ms
+2025-03-24 16:38:22.868 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-24 16:38:22.873 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 16:38:22.874 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-24 16:38:22.886 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Pid], [m].[CreatedById], [m].[CreatedDate], [m].[ModifyById], [m].[ModifyDate], [m].[ServerName], [m].[ServiceName], [m].[ServiceStatus]
+FROM [MonitorWinServices] AS [m]
+2025-03-24 16:38:22.889 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.MonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 16:38:22.890 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 14.8593ms
+2025-03-24 16:38:22.891 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 16:38:22.892 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 24.1205ms
+2025-03-24 16:39:23.295 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-24 16:39:23.306 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 16:39:23.308 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-24 16:39:23.316 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Pid], [m].[CreatedById], [m].[CreatedDate], [m].[ModifyById], [m].[ModifyDate], [m].[ServerName], [m].[ServiceName], [m].[ServiceStatus]
+FROM [MonitorWinServices] AS [m]
+2025-03-24 16:39:23.320 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.MonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 16:39:23.322 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 12.1659ms
+2025-03-24 16:39:23.324 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 16:39:23.325 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 30.6299ms
+2025-03-24 16:40:23.695 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-24 16:40:23.707 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 16:40:23.708 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-24 16:40:23.715 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Pid], [m].[CreatedById], [m].[CreatedDate], [m].[ModifyById], [m].[ModifyDate], [m].[ServerName], [m].[ServiceName], [m].[ServiceStatus]
+FROM [MonitorWinServices] AS [m]
+2025-03-24 16:40:23.717 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.MonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 16:40:23.718 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 9.0342ms
+2025-03-24 16:40:23.719 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 16:40:23.720 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 25.2797ms
+2025-03-24 20:38:48.886 +01:00 [INF] Now listening on: https://localhost:7281
+2025-03-24 20:38:48.948 +01:00 [INF] Now listening on: http://localhost:5105
+2025-03-24 20:38:49.073 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 20:38:49.076 +01:00 [INF] Hosting environment: Development
+2025-03-24 20:38:49.079 +01:00 [INF] Content root path: C:\ShriData\ATProjects\DM\MonitorWinServices\WindowsServiceMonitor\WindowsServiceMonitorAPI
+2025-03-24 20:38:51.682 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2025-03-24 20:38:52.046 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 374.6732ms
+2025-03-24 20:38:52.062 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.js - null null
+2025-03-24 20:38:52.062 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-24 20:38:52.077 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.js - 200 null application/javascript;charset=utf-8 15.3613ms
+2025-03-24 20:38:52.094 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 31.738ms
+2025-03-24 20:38:52.118 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-03-24 20:38:52.172 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.0205ms
+2025-03-24 20:38:52.365 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2025-03-24 20:38:52.408 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 43.0781ms
+2025-03-24 20:38:56.849 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7281/api/MonitorWinServices - null null
+2025-03-24 20:38:56.863 +01:00 [INF] Executing endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 20:38:56.909 +01:00 [INF] Route matched with {action = "GetAllServices", controller = "MonitorWinServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllServices() on controller WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController (WindowsServiceMonitorAPI).
+2025-03-24 20:38:57.448 +01:00 [INF] Executing action method WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) - Validation state: "Valid"
+2025-03-24 20:38:59.004 +01:00 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Pid], [a].[CreatedById], [a].[CreatedDate], [a].[ModifyById], [a].[ModifyDate], [a].[ServerName], [a].[ServiceName], [a].[ServiceStatus]
+FROM [admin_monitorwinservices] AS [a]
+2025-03-24 20:38:59.126 +01:00 [INF] Executed action method WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1669.672ms.
+2025-03-24 20:38:59.138 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[WindowsServiceMonitorAPI.Dto.MonitorWinServicesDto, WindowsServiceMonitorAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 20:38:59.166 +01:00 [INF] Executed action WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI) in 2248.5428ms
+2025-03-24 20:38:59.168 +01:00 [INF] Executed endpoint 'WindowsServiceMonitorAPI.Controllers.MonitorWinServicesController.GetAllServices (WindowsServiceMonitorAPI)'
+2025-03-24 20:38:59.180 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7281/api/MonitorWinServices - 200 null application/json; charset=utf-8 2331.4356ms
